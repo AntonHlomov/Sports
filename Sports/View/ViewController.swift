@@ -17,4 +17,8 @@ class ViewController: UIViewController {
    
 
 }
+protocol InstatViewProtocol: AnyObject {
+    func showMatchInfo(data: Match, date: String)
+    func showLinks(linksTime1: MatchLinks, linksTime2: MatchLinks)
+}
 
