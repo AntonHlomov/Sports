@@ -12,7 +12,7 @@ enum APIType {
     case getMatchLinks
     
     var baseURL: URL {
-      return URL(string: "http://144.76.179.3:17777/test/data")!
+      return URL(string:"http://144.76.179.3:17777/test/")!
     }
     
     var headers: [String: String] {

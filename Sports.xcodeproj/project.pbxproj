@@ -22,7 +22,9 @@
 		8A8E451D278F9D0800828B7E /* LinksMatchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E451C278F9D0800828B7E /* LinksMatchRequest.swift */; };
 		8A8E451F278F9D2F00828B7E /* InfoMatchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E451E278F9D2F00828B7E /* InfoMatchRequest.swift */; };
 		8A8E4521278FA15F00828B7E /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E4520278FA15F00828B7E /* Presenter.swift */; };
-		8A8E4524278FA29B00828B7E /* DateFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E4523278FA29B00828B7E /* DateFormater.swift */; };
+		8A8E4524278FA29B00828B7E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E4523278FA29B00828B7E /* Utils.swift */; };
+		8A8E45262790744200828B7E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E45252790744200828B7E /* Player.swift */; };
+		8A8E45282790777000828B7E /* AnchoredConstraintsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E45272790777000828B7E /* AnchoredConstraintsExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +45,9 @@
 		8A8E451C278F9D0800828B7E /* LinksMatchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksMatchRequest.swift; sourceTree = "<group>"; };
 		8A8E451E278F9D2F00828B7E /* InfoMatchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMatchRequest.swift; sourceTree = "<group>"; };
 		8A8E4520278FA15F00828B7E /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
-		8A8E4523278FA29B00828B7E /* DateFormater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormater.swift; sourceTree = "<group>"; };
+		8A8E4523278FA29B00828B7E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8A8E45252790744200828B7E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8A8E45272790777000828B7E /* AnchoredConstraintsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchoredConstraintsExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,7 @@
 				8A8E4512278F97E200828B7E /* Model */,
 				8A8E4518278F995700828B7E /* View */,
 				8A8E4517278F993600828B7E /* Presenter */,
-				8A8E4522278FA23C00828B7E /* Extension */,
+				8A8E4522278FA23C00828B7E /* ExtensionGlobal */,
 				8A8E4519278F9B1700828B7E /* API */,
 				8A8E44FB278F3DB100828B7E /* Main.storyboard */,
 				8A8E4501278F3DB300828B7E /* Assets.xcassets */,
@@ -116,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				8A8E44F9278F3DB100828B7E /* ViewController.swift */,
+				8A8E45252790744200828B7E /* Player.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -129,12 +134,13 @@
 			path = API;
 			sourceTree = "<group>";
 		};
-		8A8E4522278FA23C00828B7E /* Extension */ = {
+		8A8E4522278FA23C00828B7E /* ExtensionGlobal */ = {
 			isa = PBXGroup;
 			children = (
-				8A8E4523278FA29B00828B7E /* DateFormater.swift */,
+				8A8E4523278FA29B00828B7E /* Utils.swift */,
+				8A8E45272790777000828B7E /* AnchoredConstraintsExtension.swift */,
 			);
-			path = Extension;
+			path = ExtensionGlobal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +215,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A8E44FA278F3DB100828B7E /* ViewController.swift in Sources */,
+				8A8E45282790777000828B7E /* AnchoredConstraintsExtension.swift in Sources */,
 				8A8E450F278F554E00828B7E /* DataManager.swift in Sources */,
-				8A8E4524278FA29B00828B7E /* DateFormater.swift in Sources */,
+				8A8E4524278FA29B00828B7E /* Utils.swift in Sources */,
 				8A8E451F278F9D2F00828B7E /* InfoMatchRequest.swift in Sources */,
+				8A8E45262790744200828B7E /* Player.swift in Sources */,
 				8A8E4514278F981B00828B7E /* Team.swift in Sources */,
 				8A8E451D278F9D0800828B7E /* LinksMatchRequest.swift in Sources */,
 				8A8E44F6278F3DB100828B7E /* AppDelegate.swift in Sources */,
